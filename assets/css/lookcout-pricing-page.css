@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-  background-color: #2E3545;
 
   .container-general-title {
+    background-color: #2E3545;
 
     h1,
     h3 {
@@ -46,7 +46,7 @@ body {
     .btns {
       padding-bottom: 10px;
       margin-inline: 16px;
-      
+
       .btn-montly {
         color: white;
         background-color: #333B48;
@@ -61,5 +61,91 @@ body {
         padding: 9px 58px 9px 58px;
       }
     }
+  }
+
+  .payments-plans-background-color {
+    background-color: #2E3545;
+    padding-top: 32px;
+
+    .payments-plans {
+      background-color: #2E3545;
+      width: 330px;
+      margin-inline: 16px;
+      display: block;
+      margin-inline: auto;
+      padding-bottom: 16px;
+
+      h3,
+      h4 {
+        background-color: #49556D;
+        padding-inline: 16px;
+      }
+
+      .payment-montly {
+        color: #A5ACBA;
+        line-height: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
+
+      span {
+        font-size: 32px;
+        font-weight: 600;
+        color: white;
+        line-height: 40px;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        line-height: 24px;
+        padding-bottom: 8px;
+      }
+
+      .packet-description {
+        color: #A5ACBA;
+        line-height: 24px;
+        padding-bottom: 16px;
+        margin-bottom: 1px solid #2E3545;
+      }
+
+      .checkboxes-and-texts {
+        width: 330px;
+        background-color: #49556D;
+        padding-bottom: 24px;
+
+
+        .checkbox-and-text {
+          display: flex;
+          gap: 12px;
+
+          img {
+            margin-bottom: 24px;
+          }
+
+          .text {
+            color: #F9F9F9;
+            line-height: 24px;
+          }
+        }
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        background-color: #437EF7;
+        padding: 12px 90px 12px 90px;
+        margin-top: 24px;
+        margin-inline: 24px;
+      }
+
+    }
+  }
+
+  .support {
+    line-height: 24px;
+    background-color: #2E3545;
+    color: white;
+    padding-bottom: 32px;
   }
 }
