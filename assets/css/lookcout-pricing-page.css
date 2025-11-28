@@ -63,11 +63,11 @@ body {
     }
   }
 
-  .payments-plans-background-color {
+  .payment-plans-background-color {
     background-color: #2E3545;
     padding-top: 32px;
 
-    .payments-plans {
+    .payment-plan {
       background-color: #2E3545;
       width: 330px;
       margin-inline: 16px;
