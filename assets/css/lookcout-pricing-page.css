@@ -231,11 +231,13 @@ body {
     line-height: 36px;
     margin-bottom: 16px;
   }
+
   .detail {
     line-height: 24px;
     color: #5F6D7E;
     margin-bottom: 32px;
   }
+
   a {
     font-size: 15px;
     font-weight: 600;
@@ -251,4 +253,14 @@ body {
 .photo {
   width: 343px;
   margin-inline: 8px;
+  margin-bottom: 64px;
+}
+
+.customer-comments {
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: block;
+  margin-inline: auto;
 }
