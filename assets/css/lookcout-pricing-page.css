@@ -247,3 +247,8 @@ body {
     border-radius: 5px;
   }
 }
+
+.photo {
+  width: 343px;
+  margin-inline: 8px;
+}
