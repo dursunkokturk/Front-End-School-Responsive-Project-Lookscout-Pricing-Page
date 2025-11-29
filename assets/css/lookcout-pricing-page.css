@@ -130,6 +130,7 @@ body {
           }
         }
       }
+
       a {
         text-decoration: none;
         color: white;
@@ -150,6 +151,7 @@ body {
   }
 
 }
+
 .grid-container-1 {
   display: grid;
   /* grid-template-columns: repeat(1, 1fr); */
@@ -191,5 +193,23 @@ body {
     .icons-right {
       margin-left: 6px;
     }
+  }
+}
+
+.redefining {
+  margin-inline: 16px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  h2 {
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+
+  h4 {
+    color: #5F6D7E;
+    line-height: 24px;
   }
 }
