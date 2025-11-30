@@ -324,8 +324,8 @@ body {
 
   h2,
   a {
-    width: 343px;
-    display: block;
+    /* width: 343px; */
+    display: flex;
     margin-inline: auto;
   }
 
@@ -441,13 +441,14 @@ hr {
       }
     }
   }
+
   .support {
     display: none;
   }
 
   .grid-container-1 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .photo {
@@ -462,6 +463,28 @@ hr {
 
     .rating-comment-avatar-userinformations {
       width: 336px;
+    }
+  }
+
+  .login {
+    a {
+      display: inline;
+    }
+
+    .sign-up {
+      background-color: #437EF7;
+      color: white;
+      padding: 13px 50px 13px 50px;
+      border-radius: 5px;
+      margin-bottom: 16px;
+      margin-right: 16px;
+    }
+
+    .log-in {
+      background-color: #2C3444;
+      color: white;
+      padding: 13px 50px 13px 50px;
+      border-radius: 5px;
     }
   }
 }
