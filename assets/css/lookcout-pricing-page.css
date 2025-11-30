@@ -318,6 +318,13 @@ body {
 .login {
   background-color: #151B28;
   padding-bottom: 24px;
+  padding-top: 32px;
+
+  h2,a {
+    width: 343px;
+    display: block;
+    margin-inline: auto;
+  }
 
   h2 {
     font-size: 28px;
@@ -335,14 +342,14 @@ body {
   .sign-up {
     background-color: #437EF7;
     color: white;
-    padding: 13px 144px 13px 144px;
+    padding: 13px 143px 13px 143px;
     border-radius: 5px;
     margin-bottom: 16px;
   }
   .log-in {
     background-color: #2C3444;
     color: white;
-    padding: 13px 144px 13px 144px;
+    padding: 13px 138px 13px 138px;
     border-radius: 5px;
   }
 }
