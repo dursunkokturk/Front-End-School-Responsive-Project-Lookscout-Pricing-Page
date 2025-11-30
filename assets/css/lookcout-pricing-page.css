@@ -490,3 +490,17 @@ hr {
 }
 
 /* Tablet End */
+
+
+
+
+
+/* Computer Start */
+@media (width > 1109) {
+  .rating-comment-avatar-userinformations {
+    width: 336px;
+    margin-right: 32px;
+  }
+}
+
+/* Computer End */
