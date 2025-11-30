@@ -8,8 +8,9 @@ body {
   font-family: Inter;
 }
 
+/* Mobile Start */
 .hero {
-  background-color: #2E3545;
+  background-color: #151B28;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -18,7 +19,7 @@ body {
 .container {
 
   .container-general-title {
-    background-color: #2E3545;
+    background-color: #151B28;
 
     h1,
     h3 {
@@ -65,7 +66,7 @@ body {
   }
 
   .payment-plans-background-color {
-    background-color: #2E3545;
+    /* background-color: #2E3545; */
     padding-top: 32px;
 
     .payment-plan {
@@ -146,7 +147,7 @@ body {
 
   .support {
     line-height: 24px;
-    background-color: #2E3545;
+    background-color: #151B28;
     color: white;
     padding-bottom: 32px;
   }
@@ -421,3 +422,23 @@ hr {
     }
   }
 }
+
+/* Mobile End */
+
+
+
+/* Tablet Start */
+@media (width > 767px) {
+  .payment-plans-tablet {
+    background-color: #151B28;
+    display: flex;
+    flex-wrap: wrap;
+    .payment-plans-background-color {
+      .payment-plan {
+        margin-inline: 20px;
+      }
+    }
+  }
+}
+
+/* Tablet End */
