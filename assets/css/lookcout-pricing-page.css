@@ -433,11 +433,21 @@ hr {
     background-color: #151B28;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 40px;
+
     .payment-plans-background-color {
       .payment-plan {
         margin-inline: 20px;
       }
     }
+  }
+  .support {
+    display: none;
+  }
+
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
