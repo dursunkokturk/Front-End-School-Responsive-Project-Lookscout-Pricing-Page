@@ -70,7 +70,7 @@ body {
     padding-top: 32px;
 
     .payment-plan {
-      background-color: #2E3545;
+      /* background-color: #2E3545; */
       width: 330px;
       margin-inline: 16px;
       display: block;
