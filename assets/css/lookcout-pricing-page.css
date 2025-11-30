@@ -44,8 +44,9 @@ body {
     }
 
     .btns {
+      display: flex;
+      justify-content: center;
       padding-bottom: 10px;
-      margin-inline: 16px;
 
       .btn-montly {
         color: white;
