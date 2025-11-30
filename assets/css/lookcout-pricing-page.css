@@ -271,7 +271,7 @@ body {
   .rating {
     margin-bottom: 16px;
   }
-  
+
   .comment {
     font-weight: 500;
     margin-bottom: 16px;
@@ -282,26 +282,26 @@ body {
     flex-direction: row;
     margin-bottom: 17px;
 
-  
+
     .avatar {
       background-color: white;
-  
+
       img {
         width: 40px;
         height: 40px;
         background-color: white;
       }
     }
-  
+
     .userinformations {
-  
+
       h5 {
         font-size: 15px;
         font-weight: 500;
         line-height: 22px;
         margin-left: 15px;
       }
-  
+
       p {
         color: #5F6D7E;
         font-size: 14px;
@@ -311,7 +311,7 @@ body {
         justify-content: center;
       }
     }
-  
+
   }
 }
 
@@ -320,7 +320,8 @@ body {
   padding-bottom: 24px;
   padding-top: 32px;
 
-  h2,a {
+  h2,
+  a {
     width: 343px;
     display: block;
     margin-inline: auto;
@@ -346,6 +347,7 @@ body {
     border-radius: 5px;
     margin-bottom: 16px;
   }
+
   .log-in {
     background-color: #2C3444;
     color: white;
@@ -356,4 +358,44 @@ body {
 
 hr {
   border: 1px solid #2C3444;
+}
+
+.footer {
+  background-color: #151B28;
+  padding-top: 24px;
+  padding-inline: 16px;
+
+  .write {
+    color: #A5ACBA;
+    line-height: 24px;
+    padding-bottom: 24px;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    strong {
+      color: white;
+    }
+
+    h4 {
+      padding-bottom: 16px;
+      line-height: 24px;
+      color: #A5ACBA;
+    }
+    .about-us {
+      padding-right: 20px;
+      padding-bottom: 24px;
+    }
+    .products {
+      padding-left: 20px;
+    }
+    .resources {
+      padding-right: 20px;
+    }
+    .company {
+      padding-left: 20px;
+    }
+  }
 }
