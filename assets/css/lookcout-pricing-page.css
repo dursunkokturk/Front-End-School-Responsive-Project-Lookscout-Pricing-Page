@@ -373,7 +373,7 @@ hr {
 
   .grid-container-2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     strong {
       color: white;
@@ -384,18 +384,39 @@ hr {
       line-height: 24px;
       color: #A5ACBA;
     }
+
     .about-us {
       padding-right: 20px;
       padding-bottom: 24px;
     }
+
     .products {
       padding-left: 20px;
     }
+
     .resources {
       padding-right: 20px;
     }
+
     .company {
       padding-left: 20px;
+    }
+  }
+}
+
+.social-media {
+  background-color: #151B28;
+  color: #A5ACBA;
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+    line-height: 24px;
+  }
+
+  .links {
+    img {
+      padding-right: 16px;
     }
   }
 }
