@@ -314,3 +314,39 @@ body {
   
   }
 }
+
+.login {
+  background-color: #151B28;
+  padding-bottom: 24px;
+
+  h2 {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+  .sign-up {
+    background-color: #437EF7;
+    color: white;
+    padding: 13px 144px 13px 144px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+  }
+  .log-in {
+    background-color: #2C3444;
+    color: white;
+    padding: 13px 144px 13px 144px;
+    border-radius: 5px;
+  }
+}
+
+hr {
+  border: 1px solid #2C3444;
+}
