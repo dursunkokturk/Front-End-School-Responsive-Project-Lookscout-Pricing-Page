@@ -449,6 +449,21 @@ hr {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+
+  .photo {
+    display: flex;
+    margin-inline: auto;
+  }
+
+  .ratings-comments-avatars-userinformations {
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 32px;
+
+    .rating-comment-avatar-userinformations {
+      width: 336px;
+    }
+  }
 }
 
 /* Tablet End */
