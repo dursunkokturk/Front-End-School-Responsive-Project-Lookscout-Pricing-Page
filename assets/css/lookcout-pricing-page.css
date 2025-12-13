@@ -502,6 +502,11 @@ hr {
     width: 336px;
     margin-right: 32px;
   }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* Computer End */
