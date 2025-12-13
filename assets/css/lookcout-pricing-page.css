@@ -517,6 +517,17 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .login {
+    display: flex;
+  }
+  .sign-up {
+    padding: 13px 30px 13px 30px;
+  }
+
+  .log-in {
+    padding: 13px 30px 13px 30px;
+  }
 }
 
 /* Computer End */
