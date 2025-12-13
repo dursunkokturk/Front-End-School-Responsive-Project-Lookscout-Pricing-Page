@@ -508,6 +508,15 @@ hr {
 
 /* Computer Start */
 @media (width > 1109) {
+  .hamburger-menu {
+    display: none;
+  }
+  .menus {
+    display: flex;
+  }
+  ul {
+    list-style: none;
+  }
   .container-general-title {
     h1,h3 {
       width: 650px;
