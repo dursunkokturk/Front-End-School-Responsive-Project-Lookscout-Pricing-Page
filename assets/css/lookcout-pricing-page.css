@@ -321,7 +321,8 @@ body {
 .login {
   background-color: #151B28;
   padding-bottom: 24px;
-  padding-top: 32px;
+  padding-top: 40px;
+  padding-left: 32px;
 
   h2,
   a {
@@ -336,6 +337,11 @@ body {
     font-weight: 600;
     line-height: 36px;
     margin-bottom: 16px;
+    padding-bottom: 32px;
+  }
+
+  .login-buttons {
+    padding-bottom: 32px;
   }
 
   a {
