@@ -508,6 +508,11 @@ hr {
 
 /* Computer Start */
 @media (width > 1109) {
+  .container-general-title {
+    h1,h3 {
+      width: 650px;
+    }
+  }
   .rating-comment-avatar-userinformations {
     width: 336px;
     margin-right: 32px;
