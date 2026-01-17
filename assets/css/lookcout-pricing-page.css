@@ -268,56 +268,61 @@ body {
   margin-inline: auto;
 }
 
-.rating-comment-avatar-userinformations {
+.ratings-comments-avatars-userinformations {
   margin-inline: 16px;
-  margin-bottom: 40px;
-
-  .rating {
-    margin-bottom: 16px;
-  }
-
-  .comment {
-    font-weight: 500;
-    margin-bottom: 16px;
-  }
-
-  .avatar-username-userinformations {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 17px;
-
-
-    .avatar {
-      background-color: white;
-
-      img {
-        width: 40px;
-        height: 40px;
+  
+  .rating-comment-avatar-userinformations {
+    margin-inline: 3px;
+    margin-bottom: 40px;
+  
+    .rating {
+      margin-bottom: 16px;
+    }
+  
+    .comment {
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+  
+    .avatar-username-userinformations {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 17px;
+  
+  
+      .avatar {
         background-color: white;
+  
+        img {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+        }
       }
+  
+      .userinformations {
+  
+        h5 {
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22px;
+          margin-left: 15px;
+        }
+  
+        p {
+          color: #5F6D7E;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          margin-left: 15px;
+          justify-content: center;
+        }
+      }
+  
     }
-
-    .userinformations {
-
-      h5 {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 22px;
-        margin-left: 15px;
-      }
-
-      p {
-        color: #5F6D7E;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-left: 15px;
-        justify-content: center;
-      }
-    }
-
   }
 }
+
 
 .login {
   background-color: #151B28;
