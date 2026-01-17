@@ -269,6 +269,7 @@ body {
 }
 
 .rating-comment-avatar-userinformations {
+  margin-inline: 16px;
   margin-bottom: 40px;
 
   .rating {
