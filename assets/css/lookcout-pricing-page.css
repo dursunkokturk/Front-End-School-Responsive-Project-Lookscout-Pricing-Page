@@ -16,6 +16,10 @@ body {
   padding: 20px;
 }
 
+.desktop-menus {
+  display: none;
+}
+
 .container {
 
   .container-general-title {
@@ -254,8 +258,9 @@ body {
 }
 
 .photo {
+  display: block;
   width: 343px;
-  margin-inline: 8px;
+  margin: 0 auto;
   margin-bottom: 64px;
 }
 
@@ -322,7 +327,6 @@ body {
     }
   }
 }
-
 
 .login {
   background-color: #151B28;
@@ -439,6 +443,14 @@ hr {
 
 /* Tablet Start */
 @media (width > 767px) {
+  .desktop-menus {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
   .payment-plans-tablet {
     background-color: #151B28;
     display: flex;
@@ -507,16 +519,22 @@ hr {
 
 /* Computer Start */
 @media (width > 1109) {
-  .hamburger-menu {
-    display: none;
-  }
-
-  .menus {
+  .desktop-menus {
     display: flex;
   }
 
   ul {
     list-style: none;
+
+  }
+
+  a {
+    color: white;
+  }
+
+
+  .hamburger-menu {
+    display: none;
   }
 
   .container {
@@ -551,9 +569,10 @@ hr {
       padding: 13px 30px 13px 30px;
     }
   }
+
   .grid-container-2 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
