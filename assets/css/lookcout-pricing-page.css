@@ -519,20 +519,38 @@ hr {
 
 
 /* Computer Start */
-@media (width > 1109) {
+@media (width > 1109px) {
+  .hero {
+    align-items: center;
+  }
   .desktop-menus {
     display: flex;
   }
 
-  ul {
+  .desktop-menus ul {
     list-style: none;
-
+    display: flex;
+  }
+  .desktop-menus a {
+    text-decoration: none;
   }
 
   a {
     color: white;
+    padding-right: 32px;
   }
 
+  .signup-and-login-buttons {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-and-login-buttons a {
+    text-decoration: none;
+  }
 
   .hamburger-menu {
     display: none;
