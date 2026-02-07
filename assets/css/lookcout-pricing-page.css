@@ -20,6 +20,10 @@ body {
   display: none;
 }
 
+.signup-and-login-buttons {
+  display: none;
+}
+
 .container {
 
   .container-general-title {
