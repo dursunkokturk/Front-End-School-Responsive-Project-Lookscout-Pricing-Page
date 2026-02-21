@@ -490,7 +490,8 @@ hr {
   }
 
   .photo-tablet {
-    margin-inline: 20px;
+    display: block;
+    margin-inline: auto;
     margin-bottom: 80px;
   }
 
@@ -621,8 +622,10 @@ hr {
     align-items: center;
     justify-content: space-between;
     max-width: 1110px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-inline: 40px;
     gap: 64px;
+    margin-bottom: 128px;
   }
 
   .sector-informations {
@@ -631,6 +634,7 @@ hr {
   }
 
   .photo-mobile-and-desktop {
+    display: block;
     width: 500px;
     margin: 0;
   }
