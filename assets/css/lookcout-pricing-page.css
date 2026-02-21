@@ -591,15 +591,9 @@ hr {
     display: none;
   }
 
-  .container {
-
-    .container-general-title {
-
-      h1,
-      h3 {
-        width: 650px;
-      }
-    }
+  .container .container-general-title h1,
+  .container .container-general-title h3 {
+    width: 650px;
   }
 
   .sector-informations-and-photo {
@@ -640,14 +634,14 @@ hr {
 
   .login {
     display: flex;
+  }
 
-    .sign-up {
-      padding: 13px 30px 13px 30px;
-    }
+  .login .sign-up {
+    padding: 13px 30px 13px 30px;
+  }
 
-    .log-in {
-      padding: 13px 30px 13px 30px;
-    }
+  .login .log-in {
+    padding: 13px 30px 13px 30px;
   }
 
   .grid-container-2 {
