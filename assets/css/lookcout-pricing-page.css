@@ -455,12 +455,10 @@ hr {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
+  }
 
-    .payment-plans-background-color {
-      .payment-plan {
-        margin-inline: 20px;
-      }
-    }
+  .payment-plans-tablet .payment-plans-background-color .payment-plan {
+    margin-inline: 20px;
   }
 
   .support {
@@ -488,32 +486,30 @@ hr {
     display: flex;
     flex-wrap: wrap;
     margin-inline: 32px;
-
-    .rating-comment-avatar-userinformations {
-      width: 336px;
-    }
   }
 
-  .login {
-    a {
-      display: inline;
-    }
+  .ratings-comments-avatars-userinformations .rating-comment-avatar-userinformations {
+    width: 336px;
+  }
 
-    .sign-up {
-      background-color: #437EF7;
-      color: white;
-      padding: 13px 50px 13px 50px;
-      border-radius: 5px;
-      margin-bottom: 16px;
-      margin-right: 16px;
-    }
+  .login a {
+    display: inline;
+  }
 
-    .log-in {
-      background-color: #2C3444;
-      color: white;
-      padding: 13px 50px 13px 50px;
-      border-radius: 5px;
-    }
+  .login .sign-up {
+    background-color: #437EF7;
+    color: white;
+    padding: 13px 50px 13px 50px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  .login .log-in {
+    background-color: #2C3444;
+    color: white;
+    padding: 13px 50px 13px 50px;
+    border-radius: 5px;
   }
 }
 
