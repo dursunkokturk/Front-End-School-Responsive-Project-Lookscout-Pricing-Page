@@ -591,6 +591,11 @@ hr {
     display: none;
   }
 
+  .container .container-general-title {
+    text-align: center;
+    padding-inline: 300px;
+  }
+
   .container .container-general-title h1,
   .container .container-general-title h3 {
     width: 650px;
