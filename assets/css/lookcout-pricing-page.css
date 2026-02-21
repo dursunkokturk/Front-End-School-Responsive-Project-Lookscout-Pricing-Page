@@ -560,13 +560,45 @@ hr {
   .signup-and-login-buttons {
     color: white;
     list-style: none;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    /* align-items: center; */
+
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .signup-and-login-buttons li {
+    display: flex;
+    align-items: center;
+  }
+
+  .signup-and-login-buttons .login {
+    /* .login Class'indan Gelen Cakismalari Sifirliyoruz */
+    background-color: transparent;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-inline: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .signup-and-login-buttons .login a {
+    display: inline;
+    color: white;
+    text-decoration: none;
   }
 
   .signup-and-login-buttons a {
     text-decoration: none;
+  }
+
+  .signup-and-login-buttons .sign-up {
+    color: #437EF7;
   }
 
   .hamburger-menu {
