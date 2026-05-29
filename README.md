@@ -6,6 +6,7 @@ Lookscout markası için tasarlanmış, saf HTML ve CSS kullanılarak geliştiri
 
 [Projeyi deploy edildikten sonra canlı önizlemesi.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Pricing-Page/)
 
+![Proje Görseli](assets/img/css-project-pricing-page-design.png)
 
 ## Özellikler
 
