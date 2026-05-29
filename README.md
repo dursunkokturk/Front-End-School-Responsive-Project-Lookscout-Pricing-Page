@@ -22,7 +22,6 @@ Projeyi deploy ettikten sonra linki buraya ekleyin.
 
 
 ## Duyarlı Düzenler
-, > , , 
 
 | Ekran    | Genişlik         | Öne Çıkan Değişiklikler                             |
 | -------- |------------------| ----------------------------------------------------|
@@ -40,73 +39,73 @@ Projeyi deploy ettikten sonra linki buraya ekleyin.
 | Google Fonts | Inter yazı ailesi                          |
 
 ## Proje Yapısı
-lookscout/
-├── index.html
-└── assets/
-    ├── css/
-    │   └── lookscout.css
-    └── img/
-        ├── avatars/
-        │   ├── avatar.png
-        │   ├── avatar-man.png
-        │   └── avatar-woman.png
-        ├── icons/
-        │   ├── icon-organization.png
-        │   ├── icon-process.png
-        │   ├── icon-analize.png
-        │   ├── icon-connection.png
-        │   ├── icon-integration.png
-        │   ├── icon-workflow.png
-        │   ├── icon-explere.png
-        │   ├── icon-bulb.png
-        │   ├── icon-ship.png
-        │   ├── icon-check.png
-        │   └── icon-right.png
-        ├── logos/
-        │   ├── logo-company.png
-        │   ├── logo-company-dark.png
-        │   ├── logo-gitlab.png
-        │   ├── logo-slack.png
-        │   ├── logo-slack-black.png
-        │   ├── logo-netflix.png
-        │   ├── logo-paypal.png
-        │   ├── logo-paypal-blue.png
-        │   ├── logo-verge.png
-        │   ├── logo-google.png
-        │   ├── logo-google-letter.png
-        │   ├── logo-pinterest.png
-        │   ├── logo-mailchimp.png
-        │   ├── logo-facebook.png
-        │   ├── logo-apple.png
-        │   └── logo-instagram.png
-        ├── wall.png
-        ├── wall-computer.png
-        ├── photo-grass.png
-        ├── photo-radiator.png
-        ├── photo-desk-chair.png
-        ├── burger-menu.png
-        └── chevron-down.png
+lookscout/ <br>
+├── index.html <br>
+└── assets/ <br>
+    ├── css/ <br>
+    │   └── lookscout.css <br>
+    └── img/ <br>
+        ├── avatars/ <br>
+        │   ├── avatar.png <br>
+        │   ├── avatar-man.png <br>
+        │   └── avatar-woman.png <br>
+        ├── icons/ <br>
+        │   ├── icon-organization.png <br>
+        │   ├── icon-process.png <br>
+        │   ├── icon-analize.png <br>
+        │   ├── icon-connection.png <br>
+        │   ├── icon-integration.png <br>
+        │   ├── icon-workflow.png <br>
+        │   ├── icon-explere.png <br>
+        │   ├── icon-bulb.png <br>
+        │   ├── icon-ship.png <br>
+        │   ├── icon-check.png <br>
+        │   └── icon-right.png <br>
+        ├── logos/ <br>
+        │   ├── logo-company.png <br>
+        │   ├── logo-company-dark.png <br>
+        │   ├── logo-gitlab.png <br>
+        │   ├── logo-slack.png <br>
+        │   ├── logo-slack-black.png <br>
+        │   ├── logo-netflix.png <br>
+        │   ├── logo-paypal.png <br>
+        │   ├── logo-paypal-blue.png <br>
+        │   ├── logo-verge.png <br>
+        │   ├── logo-google.png <br>
+        │   ├── logo-google-letter.png <br>
+        │   ├── logo-pinterest.png <br>
+        │   ├── logo-mailchimp.png <br>
+        │   ├── logo-facebook.png <br>
+        │   ├── logo-apple.png <br>
+        │   └── logo-instagram.png <br>
+        ├── wall.png <br>
+        ├── wall-computer.png <br>
+        ├── photo-grass.png <br>
+        ├── photo-radiator.png <br>
+        ├── photo-desk-chair.png <br>
+        ├── burger-menu.png <br>
+        └── chevron-down.png <br>
 
-🚀 Kurulum
+## Kurulum
 Proje herhangi bir bağımlılık gerektirmez. Klonladıktan sonra doğrudan tarayıcıda açabilirsiniz.
 bash# Repoyu klonlayın
 git clone https://github.com/kullanici-adi/lookscout-landing.git
 
-# Proje klasörüne girin
+### Proje klasörüne girin
 cd lookscout-landing
 
-# index.html dosyasını tarayıcıda açın
+### index.html dosyasını tarayıcıda açın
 open index.html
 
-🎨 Tasarım Detayları
+## Tasarım Detayları
 
-Renk Paleti:
+- Renk Paleti:
 
-#2663FD — Ana mavi (navbar, hero arka planı)
-#437EF7 — Açık mavi (butonlar, bağlantılar)
-#151B28 — Koyu lacivert (karanlık bölümler, footer)
-#5F6D7E — Gri (gövde metni)
-#A5ACBA — Açık gri (karanlık arka plan metinleri)
+    - #2663FD — Ana mavi (navbar, hero arka planı)
+    - #437EF7 — Açık mavi (butonlar, bağlantılar)
+    - #151B28 — Koyu lacivert (karanlık bölümler, footer)
+    - #5F6D7E — Gri (gövde metni)
+    - #A5ACBA — Açık gri (karanlık arka plan metinleri)
 
 
-Font: Inter
+- Font: Inter
