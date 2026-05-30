@@ -119,7 +119,9 @@ Projeyi VSCode içinde açıp index.html dosyasının üzerinde sağ tıkladıkt
 A fully responsive corporate landing page designed for the Lookscout brand, built with pure HTML and CSS. Covers all essential sections including navigation, feature cards, blog posts, customer testimonial, and footer.
 
 ## Live Preview
-Live preview after the project is deployed.
+[Live preview after the project is deployed.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Pricing-Page/)
+
+![Proje Görseli](assets/img/css-project-pricing-page-design.png)
 
 ## Features
 
